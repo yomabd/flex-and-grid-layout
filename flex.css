@@ -1,0 +1,58 @@
+body {
+  box-sizing: border-box;
+  color: hsl(0, 0%, 95%);
+  /* margin: 0; */
+}
+
+.container {
+  width: 80%;
+  height: 100vh;
+  display: flex;
+  flex-flow: row nowrap;
+  border: solid blue 2px;
+  align-items: center;
+  margin: auto auto;
+}
+
+.col1 {
+  background-color: hsl(31, 77%, 52%);
+}
+.col2 {
+  background-color: hsl(184, 100%, 22%);
+}
+.col3 {
+  background-color: hsl(179, 100%, 13%);
+}
+.col1,
+.col2,
+.col3 {
+  flex: 1 1 200px;
+  padding: 20px;
+}
+
+p {
+  color: hsla(0, 0%, 100%, 0.75);
+}
+.btn {
+  width: 200px;
+  height: 50px;
+  border-radius: 20px;
+  border: none;
+  outline: none;
+  color: hsl(0, 0%, 0%);
+  font-size: 15px;
+}
+.col1 .btn {
+  color: hsl(31, 77%, 52%);
+}
+.col2 .btn {
+  color: hsl(184, 100%, 22%);
+}
+.col1 .btn {
+  color: hsl(179, 100%, 13%);
+}
+
+object {
+  padding-bottom: 20px;
+  border: solid green 20x;
+}
