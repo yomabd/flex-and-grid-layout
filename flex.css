@@ -14,7 +14,7 @@ body {
   padding: 3em;
   height: 100vh;
   display: flex;
-  flex-flow: row nowrap;
+  flex-flow: row wrap;
   justify-content: center;
   align-items: center;
 }
@@ -33,6 +33,7 @@ body {
 .col3 {
   height: 70%;
   padding: 3em;
+  flex-basis: 200px;
   display: flex;
   flex-flow: column;
   justify-content: space-between;
@@ -60,26 +61,29 @@ h1 {
 .col1 .btn {
   color: hsl(31, 77%, 52%);
 }
-.col1 .btn:active {
+.col1 .btn:hover {
   background-color: hsl(31, 77%, 52%);
   color: hsl(0, 0%, 95%);
   border: 1px solid hsl(0, 0%, 95%);
+  cursor: pointer;
 }
 .col2 .btn {
   color: hsl(184, 100%, 22%);
 }
-.col2 .btn:active {
+.col2 .btn:hover {
   background-color: hsl(184, 100%, 22%);
   color: hsl(0, 0%, 95%);
   border: 1px solid hsl(0, 0%, 95%);
+  cursor: pointer;
 }
 .col3 .btn {
   color: hsl(179, 100%, 13%);
 }
-.col3 .btn:active {
+.col3 .btn:hover {
   background-color: hsl(179, 100%, 13%);
   color: hsl(0, 0%, 95%);
   border: 1px solid hsl(0, 0%, 95%);
+  cursor: pointer;
 }
 
 object {
